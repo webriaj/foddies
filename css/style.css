@@ -236,3 +236,45 @@ input[type="submit"] {
     text-align: center;
     padding-bottom: 0;
 }
+
+img.five__star__img {
+    position: absolute;
+    top: 50%;
+    left: -80px;
+}
+
+img.good__quality__img {
+    position: absolute;
+    top: 35%;
+    right: -11%;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 768px) {
+    .hero__image{
+        justify-content: center!important;
+        padding: 25px;
+        position: relative;
+    }
+    .benefit__content {
+        padding-top: 50px;
+    }
+    p.section__subtitle {
+        font-size: 30px;
+    }
+    .product__card{
+        margin-bottom: 15px;
+    }
+    img.five__star__img {
+        position: absolute;
+        top: 50%;
+        left: -35px;
+    }
+    
+    img.good__quality__img {
+        position: absolute;
+        top: 35%;
+        right: -5%;
+    }
+}
